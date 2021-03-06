@@ -1,0 +1,53 @@
+*{
+    background: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input#campo {
+    background: #ffff;
+    border: 1px solid #828282;
+    border-radius:3px;
+    padding: 5px 5px;
+    width:250px;
+}
+
+button {
+    background: #ffffff;
+    padding:5px 5px;
+    border: 1px solid #000;
+    border-radius:3px;
+    cursor: pointer;
+}
+
+button#cevent {
+    background: #ffffff;
+    padding: 5px 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+button#cevent:hover {
+    background: #fcfcfc;
+}
+
+/* MUDANÇA DE ESTILO CORES BACKGROUND*/
+.azul {
+    background: #1707f5;
+    color: #ffffff;
+}
+
+.vermelho {
+    background: #f70d0d;
+    color:#ffffff;
+}
+
+.verde {
+    background: #09e426;
+    color: #ffffff;
+}
+
+
+#telefone {
+    display: none;
+}
