@@ -17,3 +17,15 @@ function showTime() {
 
     document.querySelector('.demo').innerHTML = txt;
 }
+
+let timer_st;
+
+function rodar() {
+    timer_st = setTimeout(function() {
+        alert("funfou");
+    }, 2000);
+}
+
+function para_st() {
+    clearTimeout(timer_st);
+}
